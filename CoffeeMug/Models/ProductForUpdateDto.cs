@@ -6,7 +6,7 @@ namespace CoffeeMug.Models
     public class ProductForUpdateDto
     {
         [Required(ErrorMessage = "Name not provided")]
-        [MaxLength(80)]
+        [MaxLength(100)]
         public string Name { get; set; }
 
         [Required(ErrorMessage = "Price not provided")]
